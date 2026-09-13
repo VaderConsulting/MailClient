@@ -1,6 +1,6 @@
 # MailClient
 
-VB6 working copy of `MailClient` from Dave Robinson's OneDrive Historical Dev `VB/Old` folder. Project title: Visual Basic Programmer's Guide to the Win32 API. Output: `LClient.exe`. Chapter 14 - Miscellaneous Examples. `VersionCompanyName`: Desaware Inc..
+Desaware Inc. VB6 Launcher Client (`LClient.exe`) from Visual Basic Programmer's Guide to the Win32 API, Chapter 14 - Miscellaneous Examples. Form `frmmslot` (caption "Launcher Client") creates a local mailslot `\\.\mailslot\launcher\client` and writes GUID traffic to a remote launcher server mailslot (`\\warnbro\mailslot\launcher\server`) via Connect/Disconnect.
 
 **Source last updated:** 1997-06-01 · **Language:** VB6 · **Target:** VB6 Win32 · **Output:** WinForms exe
 
@@ -10,7 +10,7 @@ _Note: original OneDrive LastWriteTime values were wiped to 2026-08-27 by a zip 
 
 | Project | Language | Type | Purpose |
 |---------|----------|------|---------|
-| `LClient` (`Lclient.vbp`) | VB6 | WinForms exe | Chapter 14 - Miscellaneous Examples |
+| `LClient` (`Lclient.vbp`) | VB6 | WinForms exe | Launcher Client mailslot GUID traffic |
 
 ## How to open
 
